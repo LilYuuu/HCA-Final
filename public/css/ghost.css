@@ -1,0 +1,75 @@
+body {
+    background-image: url('../images/bg.jpg');
+    /* margin-bottom: 100%; */
+    /* padding: 50px 120px 50px 120px; */
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#main-wrapper {
+    display: flex;
+    /* width: 100%; */
+    /* padding: 50px 120px 50px 120px; */
+    margin: 50px 120px 50px 120px;
+    border: black solid 2px;
+    background-color: white;
+}
+
+#float-intro {
+    /* background: yellowgreen; */
+    /* border: lightgrey solid 2px; */
+    padding: 65px 10px 65px 80px;
+    width: 15vw;
+    z-index: 100;
+    position: fixed;
+}
+
+#content-wrapper {
+    /* float: right; */
+    margin-left: auto;
+    order: 2;
+    /* border: lightgrey solid 2px; */
+    padding: 50px;
+    width: 55vw;
+}
+
+.artifact-header {
+    /* border: lightgrey solid 2px; */
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items:  */
+    /* vertical-align: bottom; */
+}
+
+.artifact-img-wrapper {
+    /* border: lightgrey solid 2px; */
+    padding-right: 40px;
+    /* padding-left: 0px; */
+}
+
+.artifact-caption {
+    /* vertical-align: bottom; */
+    /* align-items: ; */
+    align-self: flex-end;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.artifact-intro {
+    padding: 0 20px 0 20px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}

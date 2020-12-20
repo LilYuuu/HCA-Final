@@ -1,0 +1,180 @@
+
+/* body{
+background-color: black;
+} */
+
+body,
+html {
+  background-color:black;
+  color:rgba(255,255,255,1.00);
+}
+
+.shadow{
+  z-index: 20;
+}
+
+/* #light {
+position: absolute;
+width: 500px;
+height: 500px;
+box-shadow: inset 0 0 150px 150px #000;
+background: #fff;
+z-index: 10;
+} */
+
+.shadows{
+  width:100vw;
+  height:100vh;
+}
+
+.shadow{
+  z-index: 20;
+  position:absolute;
+  width: 350px;
+  height: 450px;
+}
+
+.each-shadow{
+  z-index: 0;
+  /* position:relative; */
+  width: auto;
+  height: 100%;
+  /* max-width: 100%; */
+}
+
+/* ---------------early-belief ---------------*/
+#chuboshu-z,#chuboshu{
+  right:30vw;
+  bottom:15vh;
+  z-index: 20;
+}
+#chuboshu-z{
+  z-index: 21;
+}
+
+#mountain-witch-z,#mountain-witch{
+  left:20vw;
+  bottom: 15vh;
+}
+#mountain-witch-z{
+  z-index: 21;
+}
+
+/*---------------- buddism ------------*/
+#diyu-z,#diyu{
+  left:20vw;
+  bottom: -5vh;
+}
+#diyu-z{
+  z-index: 21;
+}
+
+#shifanegui-z,#shifanegui{
+  right:20vw;
+  bottom: 30vh;
+  z-index: 0;
+}
+#shifanegui-z{
+  z-index: 21;
+}
+
+#jiebotu-z,#jiebotu{
+  right:20vw;
+  bottom: 0vh;
+  z-index: 10;
+}
+#jiebotu-z{
+  z-index: 21;
+}
+
+#xiangmochengdao-z,#xiangmochengdao{
+  left:10vw;
+  top: 10vh;
+  z-index: 10;
+}
+#xiangmochengdao-z{
+  z-index: 21;
+}
+
+/*-------------- taoism--------------- */
+#fanguitu-z,#fanguitu{
+  left:15vw;
+  bottom: 10vh;
+}
+#fanguitu-z{
+  z-index: 21;
+}
+
+#yonglegongbihua-z,#yonglegongbihua{
+  right:25vw;
+  bottom: 0vh;
+}
+#yonglegongbihua-z{
+  z-index: 21;
+}
+
+#xiayuanshuiguantu-z,#xiayuanshuiguantu{
+  right:35vw;
+  top: 5vh;
+  z-index: 0;
+}
+#xiayuanshuiguantu-z{
+  z-index: 21;
+}
+
+/* ----------literati belief------------- */
+/* 鬼趣册页 */
+#guiquceye-z,#guiquceye{
+  right:35vw;
+  top: 5vh;
+  z-index: 0;
+}
+#guiquceye-z{
+  z-index: 21;
+}
+
+/* 鬼趣图卷 */
+#guiqutujuan-z,#guiqutujuan{
+  left:5vw;
+  top: 5vh;
+  z-index: 0;
+}
+#guiqutujuan-z{
+  z-index: 21;
+}
+/* 骷髅幻戏图 */
+#kulouhuanxitu-z,#kulouhuanxitu{
+  right:30vw;
+  bottom: 5vh;
+  z-index: 10;
+}
+#kulouhuanxitu-z{
+  z-index: 21;
+}
+/* 雄鬼图册 */
+#xiongguituce-z,#xiongguituce{
+  left:20vw;
+  bottom: 5vh;
+  z-index: 20;
+}
+#xiongguituce-z{
+  z-index: 21;
+}
+
+.cursor-box {
+width: 30em;
+height: 30em;
+position: absolute;
+box-shadow: 0 0 0 10000px rgba(0, 0, 0, 1.0);
+z-index: 21;
+border-radius: 50%;
+
+}
+.cursor-box-child {
+width: 100%;
+height: 100%;
+z-index: 21;
+border-radius: 50%;
+border: 0;
+box-shadow: inset 0px 0px 200px 75px rgba(0,0,0,1.0);
+}

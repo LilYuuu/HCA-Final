@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+#video {
+    margin: auto;
+    height:50%;
+    width: 100vw;
+    height:20%;
+}
+
+#next-button {
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 20px;
+    position: absolute;
+    right:2%;
+    bottom:2%;
+    border-style: solid;
+    border-color: black;
+    font-family: 'Julius Sans One', cursive;
+}
+
+#next-button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#title {
+    font-family: 'Julius Sans One', cursive;
+    font-size: 28px;
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+}

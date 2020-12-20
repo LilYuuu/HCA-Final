@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Chu Silk Manuscript</title>
+  <link rel="stylesheet" href="css/ghost.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="background">
+    <!-- <img src="images/bg.jpg" alt=""> -->
+  </div>
+
+  <div id="main-wrapper">
+      <!-- floating-intro -->
+      <div id="float-intro">
+
+        <div id="ghost-img-wrapper">
+          <img src="images/tujian/tujian-08.png" id="ghost-img" width="240px" height="auto">
+        </div>
+
+        <div id="ghost-intro">
+          <h3>Chu Gods for the Months</h3>
+          <p>12 gods that stands for every month in Chu Silk Manuscript.</p>
+        </div>
+
+        <br>
+
+        <div id="nav">
+          <a href="index.html">>Intro</a>
+          <br>
+          <a href="homepage.html">>Catalogue</a>
+          <br>
+          <br>
+          <a href="ghosts-early-belief.html">>Back</a>
+        </div>
+
+      </div>
+
+      <!-- content -->
+      <div id="content-wrapper">
+
+        <div class="artifact" id="luo-pin">
+
+          <div class="artifact-header">
+            <div class="artifact-img-wrapper">
+              <img class="mySlides" src="images/ghosts/chu-gods/02.jpeg" width="280px" height="360px">
+              <img class="mySlides" src="images/ghosts/chu-gods/01.jpeg" width="280px" height="360px">
+
+              <br>
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <div class="artifact-caption">
+              <h3><i>Chu Silk Manuscript</i></h3>
+              <p>Warring States Period, Arthur M. Sackler Gallery, Washington D.C.</p>
+            </div>
+          </div>
+
+          <div class="artifact-intro">
+            <p>Warring States Period, Arthur M. Sackler Gallery, Washington D.C.
+              The content of the Chu Silk Book is rich and complex. It not only contains the myths, legends and customs circulated in Chu, but also contains Yin and Yang Thoughts and the induction of heaven and human. There are 12 weird gods around the text, sketched with thin lines and painted with colors. The 12 divine paintings are lifelike and are depicted in different poses, standing or lying down, running or jumping. At the same time, the portraits of the gods painted show strong realism, such as the markings on some of the gods, which are portrayed in detail, as if they were lifted from tigers and leopards. The 12 gods represent 12 months, which were widely used in Chu in the Warring States Period. The "inscription" of the 12 god statues contains the name of each month and the appropriate actions and taboos of each month. At the end, the inscription records the functions of each month’s god.</p></div>
+
+        </div>
+
+      </div>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+  <script type="text/javascript" src="js/ghost.js"></script>
+</body>
+</html>

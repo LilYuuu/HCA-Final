@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Enlightenment of Shakyamuni</title>
+  <link rel="stylesheet" href="css/ghost.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="background">
+    <!-- <img src="images/bg.jpg" alt=""> -->
+  </div>
+
+  <div id="main-wrapper">
+      <!-- floating-intro -->
+      <div id="float-intro">
+
+        <div id="ghost-img-wrapper">
+          <img src="images/tujian/tujian-01.png" id="ghost-img" width="240px" height="auto">
+        </div>
+
+        <div id="ghost-intro">
+          <h3>Demon Army</h3>
+          <!-- <p></p> -->
+        </div>
+
+        <br>
+
+        <div id="nav">
+          <a href="index.html">>Intro</a>
+          <br>
+          <a href="homepage.html">>Catalogue</a>
+          <br>
+          <br>
+          <a href="ghosts-buddhism.html">>Back</a>
+        </div>
+
+      </div>
+
+      <!-- content -->
+      <div id="content-wrapper">
+
+        <div class="artifact" id="luo-pin">
+
+          <div class="artifact-header">
+            <div class="artifact-img-wrapper">
+              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-06.jpg" width="auto" height="240px">
+              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-01.jpg" width="180px" height="240px">
+              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-02.jpg" width="180px" height="240px">
+              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-03.jpg" width="180px" height="240px">
+              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-04.jpg" width="180px" height="240px">
+              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-05.jpg" width="180px" height="240px">
+
+              <br>
+              <!-- <br> -->
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+            </div>
+
+            <div class="artifact-caption">
+              <h3><i>Enlightenment of Shakyamuni</i></h3>
+              <p>Dunhuang. Musee Guimet, France.</p>
+            </div>
+          </div>
+
+          <div class="artifact-intro">
+            <p>In the buddhism legend, during six years of asceticism, Sakyamuni only eats one hemp and one wheat every day, until his whole body becomes lean and withered, but he still cannot achieve enlightenment with such asceticism. So he abandoned the austerity and went to the river to take a bath. After receiving the offerings of the shepherdess to restore his strength, he walked under a big Bodhi tree near Bodh Gaya Mountain, and went to meditation on the Vajra throne and swore : "If I don't become a Buddha, I can't afford this seat." At this time, the Demon King Boshun learned that the Bodhisattva had made the determination to become a Buddha. So he was horrified, sent three witches to seduce, and sent countless magic soldiers Yaksha to create all kinds of magical horrors, destroying the enlightenment of the Bodhisattva, but the Bodhisattva did not panic or move, and finally subdued the devil and the king with the might of Demon Army.</p>
+
+            <p>In this painting, the Buddha sits in the center of the picture, with his hands imprinting the magic seal, and a huge canopy on his head. On the clouds above, there is a three-faced and eight-armed Ming Kin. The surrounding scenes depict the demons trying to prevent the Buddha from enlightening. The two sides of the painting are divided into various postures from top to bottom to show the supernatural power of the Buddha. The lower part of the painting is painted with Qibao such as white elephant and jade girl.</p>
+          </div>
+
+        </div>
+
+      </div>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+  <script type="text/javascript" src="js/ghost.js"></script>
+</body>
+</html>

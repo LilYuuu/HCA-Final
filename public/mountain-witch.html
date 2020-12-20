@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Mountain Witch</title>
+  <link rel="stylesheet" href="css/ghost.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="background">
+    <!-- <img src="images/bg.jpg" alt=""> -->
+  </div>
+
+  <div id="main-wrapper">
+      <!-- floating-intro -->
+      <div id="float-intro">
+
+        <div id="ghost-img-wrapper">
+          <img src="images/tujian/tujian-05.png" id="ghost-img" width="240px" height="auto">
+        </div>
+
+        <div id="ghost-intro">
+          <h3>Mountain Witch</h3>
+          <p>Mountain Witch is a character depicted in <i>Chu Ci: Jiuge</i> of Qu Yuan.</p>
+        </div>
+
+        <br>
+
+        <div id="nav">
+          <a href="index.html">>Intro</a>
+          <br>
+          <a href="homepage.html">>Catalogue</a>
+          <br>
+          <br>
+          <a href="ghosts-early-belief.html">>Back</a>
+        </div>
+
+      </div>
+
+      <!-- content -->
+      <div id="content-wrapper">
+
+        <div class="artifact" id="luo-pin">
+
+          <div class="artifact-header">
+            <div class="artifact-img-wrapper">
+              <!-- <img class="mySlides" src="images/ghosts/mountain-witch/luo-pin-01.png" width="auto" height="360px"> -->
+              <img class="mySlides" src="images/ghosts/mountain-witch/luo-pin-02.jpg" width="auto" height="640px">
+<!--
+              <br>
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> -->
+            </div>
+
+            <div class="artifact-caption">
+              <h3><i>Mountain Witch</i></h3>
+              <p>Luo Pin, Qing. Private Collection.</p>
+            </div>
+          </div>
+
+          <div class="artifact-intro">
+            <p>Luo Pin (罗聘), Qing Dynasty, lived in present-day Yangzhou, Jiangsu. His pseudonyms are Liangfeng (两峰) and Monk of the Temple of Flowers (花之寺僧). He studied painting under Jin Nong and developed a unique personal style.  He painted people, Buddhist images, plum with bamboo, flowers, and scenery paintings. He refused government service to live a life of poverty selling paintings. He was the youngest of the Eight Eccentrics of Yangzhou.</p>
+
+            <p>In the second half of his life, he often painted monstrous creatures. According to himself, he has seen such creatures in his own eyes.</p>
+
+            <p>Mountain Witch (山鬼) is a character depicted in Chu ci: Jiuge of Qu Yuan. In the poetry, the ghost is a sentimental young beauty, who waits for her sweetheart in the mountains and has fluctuating emotional changes and twisting inner world. According to Qu Yuan, the ghost uses exotic floras to decorate her clothes, and exudes natural fragrance. She has smiley face and slender body. Also she rides on a leopard and carries wildcats.</p>
+
+            <p>The mountain witch in this picture is different from the half-naked wild woman in Zhang Wo’s Jiuge. It depicts a gentle and graceful beauty. If she is not painted with prickly pear and a tiger, she is almost considered to be a noble lady.</p>
+
+          </div>
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="artifact" id="zhang-wo">
+
+          <div class="artifact-header">
+            <div class="artifact-img-wrapper">
+              <img src="images/ghosts/mountain-witch/zhang-wo.jpg" width="480px" height="auto">
+            </div>
+
+            <div class="artifact-caption">
+              <h3><i>Night Songs: Mountain Witch</i></h3>
+              <p>Zhang Wo, Yuan Dynasty. Jilin Provincial Museum.</p>
+            </div>
+          </div>
+
+          <div class="artifact-intro">
+            <p>This painting is a chapter of Zhang Wo’s Night Songs. There are eleven paragraphs in the scroll of "Nine Songs", each with a picture, painting the portrait of Qu Yuan and the "Donghuang Taiyi", “Yun Zhongjun", "Xiang Jun", "Mrs. Xiang" and "Da Si Ming”, "Young Master Ming", "Dongjun", "He Bo", "Mountain Ghost" and "Guo Shang” in the Chuci Nine Songs.
+            </p>
+
+            <p>
+              Qu Yuan’s "Nine Songs" is a poem based on folk. At that time, the witchcraft in Chu State was flourishing, and people's entertainment life was often mixed with religious sacrifices, expressing their ideals and wishes through the gods they worshiped. From content to style, Qu Yuan's "Nine Songs" preserves the basic style of the original southern folk songs for worshipping gods. It has been shining in the long historical process and has attracted painters of the past generations to make artistic creations with this theme.
+            </p>
+
+            <p>In this painting, the nude mountain witch is riding on a leopard in the pine forest. The drawing and brushwork are smooth and neat, showing vigor and radiance. The lines are slender and flying, reflecting the line drawing style of the Yuan Dynasty.
+            </p>
+          </div>
+
+        </div>
+
+
+      </div>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+  <script type="text/javascript" src="js/ghost.js"></script>
+</body>
+</html>

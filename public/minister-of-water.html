@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Retinue of the Minister of Water</title>
+  <link rel="stylesheet" href="css/ghost.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="background">
+    <!-- <img src="images/bg.jpg" alt=""> -->
+  </div>
+
+  <div id="main-wrapper">
+      <!-- floating-intro -->
+      <div id="float-intro">
+
+        <div id="ghost-img-wrapper">
+          <img src="images/tujian/tujian-04.png" id="ghost-img" width="240px" height="auto">
+        </div>
+
+        <div id="ghost-intro">
+          <h3>Minister of Water</h3>
+          <!-- <p></p> -->
+        </div>
+
+        <br>
+
+        <div id="nav">
+          <a href="index.html">>Intro</a>
+          <br>
+          <a href="homepage.html">>Catalogue</a>
+          <br>
+          <br>
+          <a href="ghosts-taoism.html">>Back</a>
+        </div>
+
+      </div>
+
+      <!-- content -->
+      <div id="content-wrapper">
+
+        <div class="artifact" id="luo-pin">
+
+          <div class="artifact-header">
+            <div class="artifact-img-wrapper" height="800px">
+              <img class="mySlides" src="images/ghosts/minister-of-water/minister-of-water-04.png" width="auto" height="360px">
+              <!-- <img class="mySlides" src="images/ghosts/minister-of-water/minister-of-water-01.jpg" width="480px" height="auto"> -->
+              <!-- <img class="mySlides" src="images/ghosts/minister-of-water/minister-of-water-02.jpg" width="auto" height="240px"> -->
+              <img class="mySlides" src="images/ghosts/minister-of-water/minister-of-water-03.png" width="auto" height="360px">
+
+              <br>
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <div class="artifact-caption">
+              <h3><i>Retinue of the Minister of Water</i></h3>
+              <p>He Cheng, Yuan Dynasty. Freer Gallery of Art, Washington D.C.</p>
+            </div>
+          </div>
+
+          <div class="artifact-intro">
+            <p>He Cheng (1223-?), from Yan (now Hebei Province), was a painter in the late Jin Dynasty and early Yuan Dynasty. He was born in 1224 AD and died in his 90s. He was called to the inner court by Yuan Shizu. His paintings on horse are realistic, and the landscape is also good. He was once the director of calligraphy and painting. He was quite famous in the painting circle at the time, but his paintings were hardly left and were not recognized by the future generations. His landscape paintings have  followed the rules of the Southern Song court style, and the pommel horse  is learned from Li Gonglin of the Northern Song Dynasty. His works have been praised by Zhao Mengfu, Yu Ji, Ke Jiusi and others.</p>
+
+            <p>The October 15th of the lunar calendar is the "Xia Yuan Festival." It is said that on this day, Taoist temples are often used as Taoist rites to save the dead. Later, it evolved into a day for people to worship their ancestors and remember the death.</p>
+          </div>
+
+        </div>
+
+      </div>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+  <script type="text/javascript" src="js/ghost.js"></script>
+</body>
+</html>

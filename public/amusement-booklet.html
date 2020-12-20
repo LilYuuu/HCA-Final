@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Ghost Amusement Booklet</title>
+  <link rel="stylesheet" href="css/ghost.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="background">
+    <!-- <img src="images/bg.jpg" alt=""> -->
+  </div>
+
+  <div id="main-wrapper">
+      <!-- floating-intro -->
+      <div id="float-intro">
+
+        <div id="ghost-img-wrapper">
+          <img src="images/tujian/tujian-11.png" id="ghost-img" width="240px" height="auto">
+        </div>
+
+        <div id="ghost-intro">
+          <h3>Ghosts by Gao Qipei</h3>
+          <!-- <p></p> -->
+        </div>
+
+        <br>
+
+        <div id="nav">
+          <a href="index.html">>Intro</a>
+          <br>
+          <a href="homepage.html">>Catalogue</a>
+          <br>
+          <br>
+          <a href="ghosts-literati-belief.html">>Back</a>
+        </div>
+
+      </div>
+
+      <!-- content -->
+      <div id="content-wrapper">
+
+        <div class="artifact" id="luo-pin">
+
+          <div class="artifact-header">
+            <div class="artifact-img-wrapper">
+              <img class="mySlides" src="images/ghosts/amusement-booklet/gao-qipei-04.jpg" width="480px" height="360px">
+              <img class="mySlides" src="images/ghosts/amusement-booklet/gao-qipei-01.jpg" width="480px" height="360px">
+              <img class="mySlides" src="images/ghosts/amusement-booklet/gao-qipei-02.jpg" width="480px" height="360px">
+              <img class="mySlides" src="images/ghosts/amusement-booklet/gao-qipei-03.jpg" width="480px" height="360px">
+
+              <br>
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <div class="artifact-caption">
+              <h3><i>Ghost Amusement Booklet</i></h3>
+              <p>Gao Qipei, Qing. Shanghai Museum.</p>
+            </div>
+          </div>
+
+          <div class="artifact-intro">
+            <p>Gao Qipei's painting style was influenced by Shen Zhou, Chen Chun, Bada Shanren, and Fu Shan, which in turn influenced the "Eight Eccentrics of Yangzhou". When he paints, he does not only use his fingers, but any part of his hand to paint with nails, palms and back of hands, according to the thickness of lines. His paintings are full of ecstasy and freshness.</p>
+
+            <p>Finger painting originated in the Tang Dynasty, and Gao Qipei pushed it to a peak in the Qing Dynasty. Anecdote says that Gao Qipei started to learn painting at the age of eight, and he was still unable to form his own style when he was 20. One day after taking a nap, he dreamed that an old man took him to a room. He saw wonderful paintings on the walls, but he couldn’t copy without pen and ink. There was a geyser in the room, so he dipped his finger in the water. After waking up, thinking of this dream, he started to paint with his fingers, which made him even more comfortable. If this dream is true, it is nothing more than what the painter thinks. It is a slumped emotion in the heart. Relieving through the dream is also one of the results of the painter's persistent understanding about painting.</p>
+          </div>
+
+        </div>
+
+      </div>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+
+  <script type="text/javascript" src="js/ghost.js"></script>
+</body>
+</html>
