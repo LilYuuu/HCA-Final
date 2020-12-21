@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/ghost.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="background">
@@ -27,9 +28,9 @@
         <br>
 
         <div id="nav">
-          <a href="index.html">>Intro</a>
-          <br>
-          <a href="homepage.html">>Catalogue</a>
+          <!-- <a href="index.html">>Intro</a>
+          <br> -->
+          <a href="homepage.html">>Home</a>
           <br>
           <br>
           <a href="ghosts-buddhism.html">>Back</a>
@@ -44,15 +45,27 @@
 
           <div class="artifact-header">
             <div class="artifact-img-wrapper">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-09.png" width="auto" height="360px">
-              <!-- <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-01.jpg" width="auto" height="360px"> -->
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-02.png" width="auto" height="360px">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-03.png" width="auto" height="360px">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-04.png" width="auto" height="360px">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-05.png" width="auto" height="360px">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-06.png" width="auto" height="360px">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-07.png" width="auto" height="360px">
-              <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-08.png" width="auto" height="360px">
+
+              <div class="popup">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-09.png" width="auto" height="360px">
+                <!-- <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-01.jpg" width="auto" height="360px"> -->
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-02.png" width="auto" height="360px">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-03.png" width="auto" height="360px">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-04.png" width="auto" height="360px">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-05.png" width="auto" height="360px">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-06.png" width="auto" height="360px">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-07.png" width="auto" height="360px">
+                <img class="mySlides" src="images/ghosts/ten-kings-of-hell/diyu-08.png" width="auto" height="360px">
+              </div>
+
+              <div class="show">
+                <div class="overlay"></div>
+                <!-- <div class="img-show"> -->
+                <span>X</span>
+                <img src="">
+                <!-- </div> -->
+              </div>
+              
 
               <br>
 
@@ -82,16 +95,28 @@
 
           <div class="artifact-header">
             <div class="artifact-img-wrapper">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-10.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-01.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-02.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-03.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-04.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-05.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-06.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-07.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-08.jpg" width="240px" height="360px">
-              <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-09.jpg" width="240px" height="360px">
+
+              <div class="popup">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-10.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-01.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-02.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-03.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-04.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-05.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-06.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-07.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-08.jpg" width="240px" height="360px">
+                <img class="mySlides2" src="images/ghosts/ten-kings-of-hell/lu-xinzhong-09.jpg" width="240px" height="360px">
+              </div>
+              
+
+              <div class="show">
+                <div class="overlay"></div>
+                <!-- <div class="img-show"> -->
+                <span>X</span>
+                <img src="">
+                <!-- </div> -->
+              </div>
 
               <br>
 

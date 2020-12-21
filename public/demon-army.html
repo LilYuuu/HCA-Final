@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/ghost.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="background">
@@ -28,9 +29,9 @@
         <br>
 
         <div id="nav">
-          <a href="index.html">>Intro</a>
-          <br>
-          <a href="homepage.html">>Catalogue</a>
+          <!-- <a href="index.html">>Intro</a>
+          <br> -->
+          <a href="homepage.html">>Home</a>
           <br>
           <br>
           <a href="ghosts-buddhism.html">>Back</a>
@@ -45,12 +46,24 @@
 
           <div class="artifact-header">
             <div class="artifact-img-wrapper">
-              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-06.jpg" width="auto" height="240px">
-              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-01.jpg" width="180px" height="240px">
-              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-02.jpg" width="180px" height="240px">
-              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-03.jpg" width="180px" height="240px">
-              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-04.jpg" width="180px" height="240px">
-              <img class="mySlides" src="images/ghosts/demon-army/dunhuang-05.jpg" width="180px" height="240px">
+              
+              <div class="popup">
+                <img class="mySlides" src="images/ghosts/demon-army/dunhuang-06.jpg" width="auto" height="240px">
+                <img class="mySlides" src="images/ghosts/demon-army/dunhuang-01.jpg" width="180px" height="240px">
+                <img class="mySlides" src="images/ghosts/demon-army/dunhuang-02.jpg" width="180px" height="240px">
+                <img class="mySlides" src="images/ghosts/demon-army/dunhuang-03.jpg" width="180px" height="240px">
+                <img class="mySlides" src="images/ghosts/demon-army/dunhuang-04.jpg" width="180px" height="240px">
+                <img class="mySlides" src="images/ghosts/demon-army/dunhuang-05.jpg" width="180px" height="240px">
+              </div>
+
+              <div class="show">
+                <div class="overlay"></div>
+                <!-- <div class="img-show"> -->
+                <span>X</span>
+                <img src="">
+                <!-- </div> -->
+              </div>
+              
 
               <br>
               <!-- <br> -->

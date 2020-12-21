@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/ghost.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="background">
@@ -28,9 +29,9 @@
         <br>
 
         <div id="nav">
-          <a href="index.html">>Intro</a>
-          <br>
-          <a href="homepage.html">>Catalogue</a>
+          <!-- <a href="index.html">>Intro</a>
+          <br> -->
+          <a href="homepage.html">>Home</a>
           <br>
           <br>
           <a href="ghosts-early-belief.html">>Back</a>
@@ -45,8 +46,19 @@
 
           <div class="artifact-header">
             <div class="artifact-img-wrapper">
-              <img class="mySlides" src="images/ghosts/chu-gods/02.jpeg" width="280px" height="360px">
-              <img class="mySlides" src="images/ghosts/chu-gods/01.jpeg" width="280px" height="360px">
+
+              <div class="popup">
+                <img class="mySlides" src="images/ghosts/chu-gods/02.jpeg" width="280px" height="360px">
+                <img class="mySlides" src="images/ghosts/chu-gods/01.jpeg" width="280px" height="360px">
+              </div>
+              
+              <div class="show">
+                <div class="overlay"></div>
+                <!-- <div class="img-show"> -->
+                <span>X</span>
+                <img src="">
+                <!-- </div> -->
+              </div>
 
               <br>
 
